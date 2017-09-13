@@ -1,16 +1,13 @@
 <template>
   <div id="main">
-
-
     <img src="./_assets/logo.png">
-    Hello Bitch
-    <!-- <router-view></router-view> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'main',
+  name: 'modular-admin',
 };
 </script>
 
