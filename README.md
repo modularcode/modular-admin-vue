@@ -1,4 +1,4 @@
-# Modular Admin: Free Bootstrap 4 Dashboard Theme <br> VueJS version (in development)
+# ModularAdmin: Free Bootstrap 4 Dashboard Theme <br> VueJS version (in development)
 
 > A Vue.js project
 
