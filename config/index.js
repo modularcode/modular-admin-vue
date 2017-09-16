@@ -2,6 +2,8 @@
 var path = require('path')
 
 module.exports = {
+  NPM_DIR: path.resolve(__dirname, '../node_modules'),
+  CLIENT_DIR: path.resolve(__dirname, '../src'),
   build: {
     env: require('./prod.env'),
     index: path.resolve(__dirname, '../dist/index.html'),

@@ -4,7 +4,11 @@ import Vue from 'vue';
 import ModularAdmin from './main.vue';
 import router from './router';
 
+// Common modules
+import './_common';
+
 Vue.config.productionTip = false;
+
 
 /* eslint-disable no-new */
 new Vue({

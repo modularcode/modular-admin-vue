@@ -20,7 +20,7 @@ module.exports = {
       'webpack': {
         'config': 'build/webpack.base.conf.js'
       }
-    }
+    },
   },
   // add your custom rules here
   'rules': {
@@ -29,10 +29,13 @@ module.exports = {
       'js': 'never',
       'vue': 'never'
     }],
+    // Custom brace style
+    'brace-style': [2, 'stroustrup', { 'allowSingleLine': true }],
     // allow optionalDependencies
     'import/no-extraneous-dependencies': ['error', {
       'optionalDependencies': ['test/unit/index.js']
     }],
+    'func-names': [0],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }

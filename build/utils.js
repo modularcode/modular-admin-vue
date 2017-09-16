@@ -30,6 +30,25 @@ exports.cssLoaders = function (options) {
           sourceMap: options.sourceMap
         })
       })
+
+      if (loader === 'sass') {
+        const sassResourcesLoader = {
+          loader: 'sass-resources-loader',
+          options: {
+            resources: [
+              config.NPM_DIR + '/font-awesome/scss/_variables.scss',
+              config.NPM_DIR + '/font-awesome/scss/_mixins.scss',
+              config.NPM_DIR + '/bootstrap/scss/_functions.scss',
+              config.NPM_DIR + '/bootstrap/scss/_variables.scss',
+              config.NPM_DIR + '/bootstrap/scss/_mixins.scss',
+              config.CLIENT_DIR + '/_theme/variables.scss',
+              config.CLIENT_DIR + '/_common/Util/Mixins.scss',
+            ]
+          },
+        };
+
+        loaders.push(sassResourcesLoader);
+      }
     }
 
     // Extract CSS when that option is specified
