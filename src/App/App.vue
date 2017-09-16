@@ -20,7 +20,7 @@
     </div>
 
     <div class="FooterContainer" >
-      <!-- {{> App/_common/Footer/Footer}} -->
+      <AppFooter />
     </div>
 
     <!-- {{> App/_common/Search/Search}} -->
@@ -33,10 +33,12 @@
 
 <script>
   import AppHeader from './_common/Header/Header';
+  import AppFooter from './_common/Footer/Footer';
 
   export default {
     components: {
       AppHeader,
+      AppFooter,
     },
   };
 </script>
