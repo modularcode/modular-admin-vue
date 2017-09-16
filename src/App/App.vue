@@ -32,7 +32,7 @@
 <style lang="scss" src="./App.scss"></style>
 
 <script>
-  import AppHeader from './_common/AppHeader/AppHeader';
+  import AppHeader from './_common/Header/Header';
 
   export default {
     components: {

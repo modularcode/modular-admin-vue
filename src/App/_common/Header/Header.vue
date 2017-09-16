@@ -94,7 +94,7 @@
 </header>
 </template>
 
-<style lang="scss" src="./AppHeader.scss"></style>
+<style lang="scss" src="./Header.scss"></style>
 
 <script>
   export default {
