@@ -1,7 +1,9 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-import About from "./views/About.vue";
+
+// Components
+import Auth from "./Auth/Auth.vue";
+import Dashboard from "./Dashboard/Dashboard.vue";
 
 Vue.use(Router);
 
@@ -9,13 +11,13 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: Home
+      name: "main",
+      component: Dashboard
     },
     {
-      path: "/about",
-      name: "about",
-      component: About
+      path: "/auth",
+      name: "auth",
+      component: Auth
     }
   ]
 });
