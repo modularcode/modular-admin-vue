@@ -1,15 +1,15 @@
 <template>
-  <div>
+  <div class="Main">
     Dashboard Main
   </div>
 </template>
 
 <script>
-  export default {
-    
-  }
+export default {};
 </script>
 
 <style scoped>
+/* .Main {
 
+} */
 </style>
